@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Δ</title>
+    <style>
+      body {
+        margin: 0 auto;
+      }
+      .color {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        top: 75%;
+      }
+      .text {
+        font-size: 4rem;
+        opacity: 0.6;
+        border: 0;
+        outline: none;
+      }
+      .otherText {
+        position: absolute;
+        bottom: 5vh;
+        right: 0vw;
+        opacity: 0.2;
+        font-size: 1rem;
+        text-align: right;
+      }
+      .history {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="color">
+      <div class="text">#000000</div>
+      <pre class="otherText">
+        Press any key for other colors<span class="history">Press H and check console for history</span>
+      </pre>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
