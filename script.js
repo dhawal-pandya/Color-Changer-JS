@@ -25,4 +25,10 @@ document.addEventListener('keypress', function (e) {
     color.style.backgroundColor = `${col}`;
     text.textContent = `${col}`;
   }
+}
+  document.addEventListener('click', function (e) {
+  changeColor();
+  let col = colorList[colorList.length - 1];
+  color.style.backgroundColor = `${col}`;
+  text.textContent = `${col}`;
 });
